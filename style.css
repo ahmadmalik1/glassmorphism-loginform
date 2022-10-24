@@ -1,0 +1,50 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(bg-image.jpg);
+    max-height: 0px;
+    font-family: 'Lucida Sans';
+}
+.container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login-form{
+    border: 1px solid gainsboro;
+    backdrop-filter: blur(10px);
+    padding: 10px;
+    width: 400px;
+    border-radius: 5px;
+}
+form{
+    color: gainsboro;
+    line-height: 30px;
+}
+form input{
+    height: 30px;
+    padding: 5px 15px;
+    width: 368px;
+    border: none;
+    font-size: 15px;
+    outline: none;
+    border-radius: 5px;
+    color: gainsboro;
+    background-color: rgba(90, 90, 90, .5);
+}
+form button{
+    font-size: 15px;
+    border: none;
+    outline: none;
+    float: right;
+    border-radius: 5px;
+    padding: 10px 25px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-weight: 600;
+    background-color: gainsboro;
+}
+form button:hover{
+    background-color: rgb(199, 198, 198);
+}
